@@ -2,115 +2,86 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mi pagina de prueba</title>
+    <title>El Mundo del Mate</title>
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body>
     <div>
       <nav class="menu">
         <img 
-        src="./assets/images/Pirelli.png" 
-        width="300"
+        src="./assets/images/mate.png" 
+        width="100"
         alt="">
+        <h1 class="titulo-pagina">EL MUNDO DEL MATE</h1>
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#title">Inicio</a></li>
+          <li><a href="#">¿Quiénes somos?</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
       </nav>    
     </div>
-    <section>
-      <div>
-        <h1> Formula 1 </h1>
-        <video>
-          <source src="./assets/Videos/1Pq3.gif"
-          alt="Video de autos"
-          autoplay
-          controls
-          muted
-          loop
-          width="100px">
-        </video>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-          Veniam velit temporibus fugiat voluptate rerum sit eius inventore exercitationem natus, <br>
-          quia assumenda maiores aliquid possimus, labore accusamus dolores dolor, accusantium voluptates. <br>
-        </p>
-        <button id="btnPpl">
-            Button
-        </button>
+    <section id="clasificaciones">
+      <div class=“funcionalidades”>
+        <div class=“func1”>
+          <h4 class=“titulo1”>Preguntas Frecuentes</h4>
+          <img class=“preg-frecuentes” src="./assets/images/dibujo mate1.jpeg" width="300px">
+          <p class=“texto1”>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis assumenda quasi numquam quo iusto vel eaque expedita officia id? Dolore ducimus ratione possimus, voluptates sed exercitationem aspernatur iusto nostrum!
+          </p>
+        </div>
+        <div class=“func2”>
+          <h4 class=“titulo2”>¿Cómo se prepara?</h4>
+          <img class=“preparacion” src="./assets/images/dibujo mate2.jpeg" width="300px">
+          <p class=“texto2”>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis assumenda quasi numquam quo iusto vel eaque expedita officia id? Dolore ducimus ratione possimus, voluptates sed exercitationem aspernatur iusto nostrum!
+          </p>
+        </div>
+        <div class=“func3”>
+          <h4 class=“titulo3”>¿Dónde comprarlos? - Nuestra comunidad</h4>
+          <img class=“tomar” src="./assets/images/dibujo mate 3.jpeg" width="300px">
+          <p class=“texto3”>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis assumenda quasi numquam quo iusto vel eaque expedita officia id? Dolore ducimus ratione possimus, voluptates sed exercitationem aspernatur iusto nostrum!
+          </p>
       </div>
     </section>
-    <section id="Atributos">
-      <div>
-          <h1> Atributos </h1>
-          <h3> History </h3>
-          <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-              Dolore quam nostrum distinctio temporibus laboriosam minima aut corrupti odit eligendi assumenda sit,<br>
-              beatae vel officia veritatis architecto ipsam nam eveniet expedita!<br>
-          </p>
-          <h3> Classification </h3>
-          <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-              Dolore quam nostrum distinctio temporibus laboriosam minima aut corrupti odit eligendi assumenda sit,<br>
-              beatae vel officia veritatis architecto ipsam nam eveniet expedita! <br>
-          </p>
-       </div>
-      </section>
-      <section id="Perfiles">
-        <div class="col-md-6 col-lg-3 text-center team mb-5">
-            <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%">
-              <img
-              src="./assets/images/CEO Pirelli.jpeg"
-              alt=""
-              width="300px">
-            </div>
-            <div>  
-              <h4>Marco Tronchetti Provera</h4>
-              <i>CEO de Pirelli</i>
-          </div>
-      </section>
       <section>
           <div>
-              <h1> Contact us!</h1>
+              <h1> ¿Te gustaría ser parte de esta comunidad?</h1>
               <form>
                   <fieldset>
                       <legend>Formulario de contacto</legend>
-                      <div class="form-group">
-                          <label for="nombre">Nombre</label>
-                          <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
-                          <small id="emailHelp" class="form-text text-muted"></small>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
                       </div>
-                      <div class="form-group">
-                          <label for="apellido">Apellido</label>
-                          <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp">
-                          <small id="emailHelp" class="form-text text-muted"></small>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                        <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
                       </div>
-                      <div class="form-group">
-                          <label for="email">Correo</label>
-                          <input type="email" class="form-control" id="email">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
                       </div>
-                      <div class="form-group">
-                          <label for="fechanacimiento"> Fecha de Nacimiento: </label> 
-                          <input 
-                          name="fechanacimiento"
-                          type="date"
-                          min="1930/01/01" max="2010/12/31">
-                          <div class="form-group">
-                            <label for="mensaje">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" cols="30" rows="10"></textarea>
-                        </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Aclaraciones / Redes / Mensajes</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </fieldset>
                 </form>
             </div>
         </section>
                     <footer>
-                        <h1> Contact info </h1>
+                        <h1> ¡Contactanos! </h1>
                         <p>
-                            e-mail: pirelli@gmail.com <br>
-                            Telefono: +5491133221222
+                            E-mail: elmundodelmate@gmail.com <br>
+                            Telefono: +54 9 1133221222 <br>
+                            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                              <button type="button" class="btn btn-warning">Instagram</button>
+                              <button type="button" class="btn btn-primary">Facebook</button>
+                              <button type="button" class="btn btn-info">Twitter</button>
+                            </div>
                         </p>
                     </footer> 
   </body>
