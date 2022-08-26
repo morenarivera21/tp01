@@ -1,10 +1,11 @@
+*{
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 17px;
+}
 div{
     padding: 20px;
 }
 
-#Atributos{
-    background-color: blanchedalmond;
-}
 
 nav{
     background-color: blanchedalmond;
@@ -14,7 +15,6 @@ nav{
 
 nav ul {
     display: flex;
-
 }
 
 nav li{
@@ -44,10 +44,15 @@ nav img{
     width: 100%;
 }
 
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
 h1{
     text-align: left;
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anek Telugu', sans-serif;
 }
 
 footer{
