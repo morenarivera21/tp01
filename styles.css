@@ -1,3 +1,4 @@
+/* Estilos generales */ 
 *{
     font-family: 'Anek Telugu', sans-serif;
     font-size: 17px;
@@ -5,6 +6,8 @@
 div{
     padding: 20px;
 }
+
+/* Barra de navegación */ 
 
 nav{
     background-color: blanchedalmond;
@@ -20,6 +23,11 @@ nav li{
 nav a {
     text-decoration: none;
     color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
 }
 
 nav a:hover{
@@ -39,16 +47,14 @@ nav img{
     width: 100%;
 }
 
-nav ul {
-    display: flex;
-    justify-content: right;
-}
 
 h1{
     text-align: left;
     font-size: 50px;
     font-family: 'Anek Telugu', sans-serif;
 }
+
+/* Footer */ 
 
 footer{
     background-color: blanchedalmond;
@@ -59,6 +65,7 @@ footer{
     padding: 30px;
 }
 
+/* Formulario */ 
 form{
     display: flex;
     flex-direction: column;
@@ -67,6 +74,8 @@ form{
     padding-left: 0%;
     border: 0%;
 }
+
+/* Cuerpo de la página web */ 
 
 .secciones{
     display: flex;
@@ -81,21 +90,95 @@ p{
     text-align: justify;
 }
 
-.comunidad h1, h3{
-    text-align: center;
-    font-weight: bold;
+#fundadores img{
+    display: flex;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 500px;
+    align-items: center;
+    justify-content: center;
 }
 
-.comunidad{
+#fundadores h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.productos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     line-height: 2;
     font-size: 20px;
     text-align-last: center;
-    background-color: blanchedalmond;
-    border-color: black;
 }
 
 
+#fundadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#informacion h1, h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#productos h5{
+    font-weight: bold;
+}
+
+#productos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#encabezado h1, h3{
+    text-align: center;
+    justify-content: baseline;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#encabezado p{
+    text-align: center;
+    justify-content: baseline;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#filtro-emp{
+    justify-content: space-evenly;
+}
+
+#Quienes-somos h1, h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+#Quienes-somos p{
+    text-align: center;
+    justify-content: baseline;
+    font-size: 20px;
+}
+
+#reseñas{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    size: 20px;
+    box-sizing: content-box;
+}
+
+.vl{
+    border-left: 1px solid black;
+    height: 250px;
+
+   }
