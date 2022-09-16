@@ -62,7 +62,18 @@ footer{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    padding: 3% 3% 3% 3%;
+}
+
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a:hover{
+    color: blue
 }
 
 /* Formulario */ 
@@ -84,7 +95,6 @@ form{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 
 p{
     text-align: justify;
@@ -182,3 +192,82 @@ p{
     height: 250px;
 
    }
+
+/* Formulario */ 
+
+
+/* Testimonios */ 
+ 
+.testimonial-section {
+    padding: 100px 0;
+ }
+  
+  
+ .testimonial-section .testimonial-active-wrapper {
+    position: relative;
+ }
+  
+ .testimonial-section .testimonial-wrapper {
+    padding: 40px;
+ }
+  
+ .testimonial-section .single-testimonial {
+    position: relative;
+    padding: 45px 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    z-index: 9;
+ }
+  
+ .testimonial-section .single-testimonial::before {
+    top: -20px;
+    right: -20px;
+    opacity: .26;
+    z-index: -1;
+ }
+  
+ .testimonial-section .single-testimonial::after {
+    top: -40px;
+    right: -40px;
+    opacity: .13;
+    z-index: -2;
+ }
+  
+ .testimonial-section .single-testimonial::before,
+ .testimonial-section .single-testimonial::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: inherit;
+ }
+  
+ .testimonial-section .single-testimonial .info .image-2 {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+ }
+  
+ .testimonial-section .single-testimonial .info h4 {
+    margin-bottom: 8px;
+    color: white;
+ }
+  
+ .testimonial-section .single-testimonial .info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: white;
+ }
+  
+ .testimonial-section .single-testimonial .quote {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 80px;
+    line-height: 1;
+    color: white;
+ }
+ 
+
