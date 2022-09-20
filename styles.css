@@ -76,16 +76,6 @@ footer a:hover{
     color: blue
 }
 
-/* Formulario */ 
-form{
-    display: flex;
-    flex-direction: column;
-    line-height: 0.5;
-    margin-left: 0%;
-    padding-left: 0%;
-    border: 0%;
-}
-
 /* Cuerpo de la página web */ 
 
 .secciones{
@@ -194,6 +184,14 @@ p{
    }
 
 /* Formulario */ 
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+    margin-left: 0%;
+    padding-left: 0%;
+    border: 0%;
+}
 
 
 /* Testimonios */ 
@@ -214,7 +212,7 @@ p{
  .testimonial-section .single-testimonial {
     position: relative;
     padding: 45px 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(85, 110, 93);
     border-radius: 10px;
     z-index: 9;
  }
@@ -239,7 +237,7 @@ p{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(85, 110, 93);
     border-radius: inherit;
  }
   
@@ -269,5 +267,7 @@ p{
     line-height: 1;
     color: white;
  }
- 
 
+ .texto-carr{
+    margin-bottom: 1px
+ }
