@@ -1,111 +1,110 @@
-/* Estilos generales */ 
-*{
-    font-family: 'Anek Telugu', sans-serif;
+/* Estilos generales */
+* {
+    font-family: "Anek Telugu", sans-serif;
     font-size: 17px;
-}
-div{
+  }
+  div {
     padding: 20px;
-}
-
-/* Barra de navegación */ 
-
-nav{
+  }
+  
+  /* Barra de navegación */
+  
+  nav {
     background-color: blanchedalmond;
     display: flex;
     flex-direction: row;
-}
-
-nav li{
+  }
+  
+  nav li {
     margin-left: 30px;
     list-style: none;
-}
-
-nav a {
+  }
+  
+  nav a {
     text-decoration: none;
     color: black;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     display: flex;
     justify-content: right;
-}
-
-nav a:hover{
+  }
+  
+  nav a:hover {
     color: blue;
-}
-
-nav img{
+  }
+  
+  nav img {
     display: flex;
     max-height: 150px;
     width: auto;
-}
-
-.menu{
+  }
+  
+  .menu {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     width: 100%;
-}
-
-
-h1{
+  }
+  
+  h1 {
     text-align: left;
     font-size: 50px;
-    font-family: 'Anek Telugu', sans-serif;
-}
-
-/* Footer */ 
-
-footer{
+    font-family: "Anek Telugu", sans-serif;
+  }
+  
+  /* Footer */
+  
+  footer {
     background-color: blanchedalmond;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     padding: 3% 3% 3% 3%;
-}
-
-.form-footer{
+  }
+  
+  .form-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-footer a:hover{
-    color: blue
-}
-
-/* Cuerpo de la página web */ 
-
-.secciones{
+  }
+  
+  footer a:hover {
+    color: blue;
+  }
+  
+  /* Cuerpo de la página web */
+  
+  .secciones {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-p{
+  }
+  
+  p {
     text-align: justify;
-}
-
-#fundadores img{
+  }
+  
+  #fundadores img {
     display: flex;
     border-radius: 50%;
     max-width: 300px;
     max-height: 500px;
     align-items: center;
     justify-content: center;
-}
-
-#fundadores h1{
+  }
+  
+  #fundadores h1 {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
-}
-
-.productos{
+  }
+  
+  .productos {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -113,161 +112,187 @@ p{
     line-height: 2;
     font-size: 20px;
     text-align-last: center;
-}
-
-
-#fundadores{
+  }
+  
+  #fundadores {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-}
-
-#informacion h1, h3{
+  }
+  
+  #informacion h1,
+  h3 {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
-}
-
-#productos h5{
+  }
+  
+  #productos h5 {
     font-weight: bold;
-}
-
-#productos{
+  }
+  
+  #productos {
     display: flex;
     justify-content: center;
     text-align: center;
-}
-
-#encabezado h1, h3{
+  }
+  
+  #encabezado h1,
+  h3 {
     text-align: center;
     justify-content: baseline;
     font-weight: bold;
     font-size: 40px;
-}
-
-#encabezado p{
+  }
+  
+  #encabezado p {
     text-align: center;
     justify-content: baseline;
     font-size: 20px;
     justify-content: center;
-}
-
-#filtro-emp{
+  }
+  
+  #filtro-emp {
     justify-content: space-evenly;
-}
-
-#Quienes-somos h1, h2{
+  }
+  
+  #Quienes-somos h1,
+  h2 {
     text-align: center;
     font-weight: bold;
-}
-
-#Quienes-somos p{
+  }
+  
+  #Quienes-somos p {
     text-align: center;
     justify-content: baseline;
     font-size: 20px;
-}
-
-#reseñas{
+  }
+  
+  #reseñas {
     display: flex;
     text-align: center;
     font-weight: bold;
     justify-content: center;
     size: 20px;
     box-sizing: content-box;
-}
-
-.vl{
+  }
+  
+  .vl {
     border-left: 1px solid black;
     height: 250px;
-
-   }
-
-/* Formulario */ 
-form{
+  }
+  
+  /* Formulario */
+  form {
     display: flex;
     flex-direction: column;
     line-height: 0.5;
     margin-left: 0%;
     padding-left: 0%;
     border: 0%;
-}
+  }
 
-
-/* Testimonios */ 
- 
-.testimonial-section {
-    padding: 100px 0;
- }
+  .titulo-form{
+    text-align: center;
+  }
   
+  .legend{
+    text-align: center;
+  }
   
- .testimonial-section .testimonial-active-wrapper {
+  /* Testimonios */
+  
+  .menu span {
+      display:flex;
+      width: 50vw;
+      justify-items: center;
+  }
+  
+  .menu span h1 {
+      margin: auto 0;
+  }
+  
+  .menu ul {
+      margin-right: 20px;
+  }
+  
+  #carouselExampleControls {
+    padding: 0;
+  }
+  
+  .testimonial-section .testimonial-active-wrapper {
     position: relative;
- }
+  }
   
- .testimonial-section .testimonial-wrapper {
+  .testimonial-section .testimonial-wrapper {
     padding: 40px;
- }
+  }
   
- .testimonial-section .single-testimonial {
+  .testimonial-section .single-testimonial {
     position: relative;
     padding: 45px 50px;
     background-color: rgb(85, 110, 93);
     border-radius: 10px;
     z-index: 9;
- }
+  }
   
- .testimonial-section .single-testimonial::before {
+  .testimonial-section .single-testimonial::before {
     top: -20px;
     right: -20px;
-    opacity: .26;
+    opacity: 0.26;
     z-index: -1;
- }
+  }
   
- .testimonial-section .single-testimonial::after {
+  .testimonial-section .single-testimonial::after {
     top: -40px;
     right: -40px;
-    opacity: .13;
+    opacity: 0.13;
     z-index: -2;
- }
+  }
   
- .testimonial-section .single-testimonial::before,
- .testimonial-section .single-testimonial::after {
-    content: '';
+  .testimonial-section .single-testimonial::before,
+  .testimonial-section .single-testimonial::after {
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgb(85, 110, 93);
     border-radius: inherit;
- }
+  }
   
- .testimonial-section .single-testimonial .info .image-2 {
+  .testimonial-section .single-testimonial .info .image-2 {
     width: 100%;
     height: 50%;
     border-radius: 50%;
     overflow: hidden;
- }
+  }
   
- .testimonial-section .single-testimonial .info h4 {
+  .testimonial-section .single-testimonial .info h4 {
     margin-bottom: 8px;
     color: white;
- }
+  }
   
- .testimonial-section .single-testimonial .info p {
+  .testimonial-section .single-testimonial .info p {
     margin-bottom: 15px;
     font-size: 16px;
     color: white;
- }
+  }
   
- .testimonial-section .single-testimonial .quote {
+  .testimonial-section .single-testimonial .quote {
     position: absolute;
     top: 50px;
     right: 50px;
     font-size: 80px;
     line-height: 1;
     color: white;
- }
+  }
+  
+  .texto-carr {
+    margin-bottom: 1px;
+    text-align: center;
+  }
 
- .texto-carr{
-    margin-bottom: 1px
- }
+  .titulo-carr{
+    text-align: center;
+  }
